@@ -13,20 +13,19 @@ body,html {
 
 .curu-gradient {
   background-color: #4ec2ee;
-background-image: -webkit-linear-gradient(135deg, #4ec2ee 0%, #2d9ddd 100%);
-background-image: -moz-linear-gradient(135deg, #4ec2ee 0%, #2d9ddd 100%);
-background-image: -o-linear-gradient(135deg, #4ec2ee 0%, #2d9ddd 100%);
-background-image: linear-gradient(135deg, #4ec2ee 0%, #2d9ddd 100%);
+  background-image: -webkit-linear-gradient(top left, #4ec2ee 0%, #2d9ddd 100%);
+  background-image: -o-linear-gradient(top left, #4ec2ee 0%, #2d9ddd 100%);
+  background-image: linear-gradient(to bottom right, #4ec2ee 0%, #2d9ddd 100%);
   -webkit-transform: skewY(-3deg);
   transform: skewY(-3deg);
   top: 3.5rem;
 }
 .blue-gradient {
   background-color: #59bcc2;
-background-image: -webkit-linear-gradient(135deg, #59bcc2 0%, #4790a0 50%, #35647f 100%);
-background-image: -moz-linear-gradient(135deg, #59bcc2 0%, #4790a0 50%, #35647f 100%);
-background-image: -o-linear-gradient(135deg, #59bcc2 0%, #4790a0 50%, #35647f 100%);
-background-image: linear-gradient(135deg, #59bcc2 0%, #4790a0 50%, #35647f 100%);
+  background-image: -webkit-linear-gradient(135deg, #59bcc2 0%, #4790a0 50%, #35647f 100%);
+  background-image: -moz-linear-gradient(135deg, #59bcc2 0%, #4790a0 50%, #35647f 100%);
+  background-image: -o-linear-gradient(135deg, #59bcc2 0%, #4790a0 50%, #35647f 100%);
+  background-image: linear-gradient(135deg, #59bcc2 0%, #4790a0 50%, #35647f 100%);
   -webkit-transform: skewY(-3deg);
   transform: skewY(-3deg);
   top: 3.5rem;
@@ -34,10 +33,10 @@ background-image: linear-gradient(135deg, #59bcc2 0%, #4790a0 50%, #35647f 100%)
 
 .red-gradient {
   background-color: #f23847;
-background-image: -webkit-linear-gradient(135deg, #f23847 0%, #ca2e3a 50%, #a71723 100%);
-background-image: -moz-linear-gradient(135deg, #f23847 0%, #ca2e3a 50%, #a71723 100%);
-background-image: -o-linear-gradient(135deg, #f23847 0%, #ca2e3a 50%, #a71723 100%);
-background-image: linear-gradient(135deg, #f23847 0%, #ca2e3a 50%, #a71723 100%);
+  background-image: -webkit-linear-gradient(135deg, #f23847 0%, #ca2e3a 50%, #a71723 100%);
+  background-image: -moz-linear-gradient(135deg, #f23847 0%, #ca2e3a 50%, #a71723 100%);
+  background-image: -o-linear-gradient(135deg, #f23847 0%, #ca2e3a 50%, #a71723 100%);
+  background-image: linear-gradient(135deg, #f23847 0%, #ca2e3a 50%, #a71723 100%);
   -webkit-transform: skewY(-3deg);
   transform: skewY(-3deg);
   top: 3.5rem;
@@ -56,10 +55,10 @@ background-image: linear-gradient(135deg, #f23847 0%, #ca2e3a 50%, #a71723 100%)
 
 .nyge-gradient {
   background-color: #eaedfb;
-background-image: -webkit-linear-gradient(135deg, #eaedfb 16%, #e2d6e9 100%);
-background-image: -moz-linear-gradient(135deg, #eaedfb 16%, #e2d6e9 100%);
-background-image: -o-linear-gradient(135deg, #eaedfb 16%, #e2d6e9 100%);
-background-image: linear-gradient(135deg, #eaedfb 16%, #e2d6e9 100%);
+  background-image: -webkit-linear-gradient(135deg, #eaedfb 16%, #e2d6e9 100%);
+  background-image: -moz-linear-gradient(135deg, #eaedfb 16%, #e2d6e9 100%);
+  background-image: -o-linear-gradient(135deg, #eaedfb 16%, #e2d6e9 100%);
+  background-image: linear-gradient(135deg, #eaedfb 16%, #e2d6e9 100%);
   -webkit-transform: skewY(-3deg);
   transform: skewY(-3deg);
   top: 3.5rem;
