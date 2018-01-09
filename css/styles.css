@@ -99,8 +99,8 @@ background-image: linear-gradient(135deg, #eaedfb 16%, #e2d6e9 100%);
 }
 
 .emergence-case {
-  -webkit-transition: 0.2s cubic-bezier(0.19, 1, 0.22, 1);
-transition: 0.2s cubic-bezier(0.19, 1, 0.22, 1);
+  -webkit-transition: 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+transition: 0.5s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 .emergence-case[data-emergence=hidden] {
