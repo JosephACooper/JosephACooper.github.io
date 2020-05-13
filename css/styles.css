@@ -11,6 +11,28 @@ body,html {
   letter-spacing: 0.01em;
 }
 
+.bo-gradient {
+  background: rgb(255,215,0);
+  background: -moz-linear-gradient(90deg, rgba(255,215,0,1) 0%, rgba(255,198,0,1) 50%, rgba(255,173,0,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(255,215,0,1) 0%, rgba(255,198,0,1) 50%, rgba(255,173,0,1) 100%);
+  background: linear-gradient(90deg, rgba(255,215,0,1) 0%, rgba(255,198,0,1) 50%, rgba(255,173,0,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffd700",endColorstr="#ffad00",GradientType=1);
+  -webkit-transform: skewY(-3deg);
+  transform: skewY(-3deg);
+  top: 3.5rem;
+}
+
+.ibm-gradient {
+  background: rgb(0,98,255);
+  background: -moz-linear-gradient(90deg, rgba(0,98,255,1) 0%, rgba(15,98,254,1) 50%, rgba(0,67,206,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(0,98,255,1) 0%, rgba(15,98,254,1) 50%, rgba(0,67,206,1) 100%);
+  background: linear-gradient(90deg, rgba(0,98,255,1) 0%, rgba(15,98,254,1) 50%, rgba(0,67,206,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0062ff",endColorstr="#0043ce",GradientType=1);
+  -webkit-transform: skewY(-3deg);
+  transform: skewY(-3deg);
+  top: 3.5rem;
+}
+
 .curu-gradient {
   background-color: #4ec2ee;
   background-image: -webkit-linear-gradient(top left, #4ec2ee 0%, #2d9ddd 100%);
@@ -20,6 +42,7 @@ body,html {
   transform: skewY(-3deg);
   top: 3.5rem;
 }
+
 .blue-gradient {
   background-color: #59bcc2;
   background-image: -webkit-linear-gradient(135deg, #59bcc2 0%, #4790a0 50%, #35647f 100%);
